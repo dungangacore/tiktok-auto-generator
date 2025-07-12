@@ -1,39 +1,41 @@
-# Auto TikTok Shorts Generator 🎥🤖
+# 🎥🤖 Auto TikTok Shorts Generator
 
-This project is a fully automated TikTok shorts video generator. It uses AI to:
-- generate engaging content,
-- convert it to speech,
-- find relevant video footage,
-- and publish it with a shortened monetized link.
+A fully automated TikTok shorts generator powered by AI. It:
 
-Perfect for those seeking passive income via content automation.
+- 🎯 Generates engaging content using GPT
+- 🎤 Converts text to speech using ElevenLabs
+- 🎞️ Fetches relevant video clips from Pexels
+- 💰 Adds monetized links with Ouo.io
+- 📹 Produces ready-to-upload short videos
+
+Perfect for passive income through automated content creation.
 
 ---
 
 ## 🧠 Features
 
-- Topic selection powered by OpenAI GPT.
-- Voice generation with ElevenLabs TTS.
-- Visual content from Pexels API.
-- Link monetization via Ouo.io.
-- Full video generation with `moviepy`.
+- AI-generated topics and scripts via **OpenAI GPT**
+- Realistic voice narration using **ElevenLabs TTS**
+- Stock footage from **Pexels API**
+- Monetized URL shortening with **Ouo.io**
+- Final video creation handled by **moviepy**
 
 ---
 
 ## 🚀 Setup
 
-1. Clone the repository:
+1. **Clone the repository**  
 ```bash
 git clone https://github.com/dungangacore/tiktok-auto-generator.git
 cd tiktok-auto-generator
 ```
 
-2. Install dependencies:
+2. **Install dependencies**  
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Add your API keys to a `config.py` file:
+3. **Create your `config.py` with API keys**  
 ```python
 # config.py (EXAMPLE)
 PEXELS_API_KEY = "your_pexels_api_key"
@@ -42,7 +44,7 @@ ELEVENLABS_API_KEY = "your_elevenlabs_api_key"
 OPENAI_API_KEY = "your_openai_api_key"
 ```
 
-4. Run the bot:
+4. **Run the bot**  
 ```bash
 python main.py
 ```
@@ -51,21 +53,30 @@ python main.py
 
 ## 🖼️ Example Output
 
-https://github.com/dungangacore/tiktok-auto-generator/blob/main/output/output_video.gif
+![Example Video Output](https://github.com/dungangacore/tiktok-auto-generator/raw/main/output/output_video.gif)
 
 ---
 
 ## 📁 File Structure
 
-- `main.py` — Orchestrates the content creation workflow
-- `content_generator.py` — Topic + script generator (GPT)
-- `text_to_speech.py` — ElevenLabs TTS
-- `video_creator.py` — Clips and composes video
-- `link_shortener.py` — Monetized URL shortener
-- `config.py` — API keys (excluded via .gitignore)
+```
+.
+├── main.py                 # Orchestrates the content creation workflow
+├── config.py               # API keys (excluded from Git)
+├── requirements.txt
+├── .gitignore
+├── src/
+│   ├── content_generator.py    # Topic + script generator (GPT)
+│   ├── text_to_speech.py       # ElevenLabs TTS
+│   ├── video_creator.py        # Video composer using moviepy
+│   └── link_shortener.py       # Monetized URL shortener
+├── output/
+│   └── output_video.mp4        # Example generated video
+```
 
 ---
 
 ## 📄 License
 
-This project is for **educational and non-commercial use only**. Use responsibly.
+This project is for **educational and non-commercial use only**.  
+Use responsibly. No warranties provided.
