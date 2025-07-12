@@ -51,7 +51,7 @@ python main.py
 
 ## 🖼️ Example Output
 
-![Example Screenshot](https://placehold.co/600x400?text=Sample+TikTok+Video)
+https://github.com/dungangacore/tiktok-auto-generator/assets/your_video_hash/output_video.mp4
 
 ---
 
