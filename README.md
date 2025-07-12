@@ -69,7 +69,3 @@ python main.py
 ## 📄 License
 
 This project is for **educational and non-commercial use only**. Use responsibly.
-
----
-
-Made with ❤️ by ExelanS & ZaNe
