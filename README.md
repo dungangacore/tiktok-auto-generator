@@ -51,7 +51,7 @@ python main.py
 
 ## 🖼️ Example Output
 
-https://github.com/dungangacore/tiktok-auto-generator/blob/main/output/output_video.mp4
+https://github.com/dungangacore/tiktok-auto-generator/blob/main/output/output_video.gif
 
 ---
 
